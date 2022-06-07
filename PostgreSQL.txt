@@ -1,0 +1,25 @@
+criar um banco de dados
+CREATE DATABASE nome;
+deletar
+DROP DATABASE nome;
+lista de databe
+\l
+lista usuarios
+\du
+limpar a tela
+Ctrl + L
+abrir a base de dados
+\c nome
+
+CREATE TABLE nome (
+	Comlumn name + data type + constraints if any
+)
+
+ex:
+CREATE TABLE person (
+	id INT, 
+	first_name VARCHAR(50),
+	last_name VARCHAR(50),
+	gender VARCHAR(50),
+	date_of_birth TIMESTAMP,
+)
